@@ -1,0 +1,9 @@
+# Paper 1.21.10+, Java 21. Arena definitions live in arenas.yml.
+prefix: 'Lumigames » '
+autosave-seconds: 60
+# While playing, other commands are blocked to prevent inventory/teleport escapes.
+allowed-commands: [msg, tell, w, reply, r, help]
+checkpoint-material: LIGHT_WEIGHTED_PRESSURE_PLATE
+finish-material: HEAVY_WEIGHTED_PRESSURE_PLATE
+# Arena block changes are recorded and restored at the end of a match.
+max-recorded-blocks: 50000

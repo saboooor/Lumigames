@@ -1,0 +1,18 @@
+name: Lumigames
+version: '${version}'
+main: ca.saboor.lumigames.Lumigames
+api-version: '1.21.10'
+description: Modern minigames with dialogs, persistent checkpoints and safe player recovery.
+author: Saboor
+commands:
+  lumigames:
+    aliases: [lg, minigame, mg]
+    description: Browse, play and manage Lumigames
+    usage: /<command> [join|leave|revert|stats|admin]
+permissions:
+  lumigames.play:
+    default: true
+  lumigames.admin:
+    default: op
+  lumigames.spectate:
+    default: true
